@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Platform">
+      <UniqueIdentifier>{d72c70da-8516-4f48-bb2d-90d1053e8ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderer">
+      <UniqueIdentifier>{c05ed79f-d2bf-4ea5-b824-9270daad85c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{d1192d6f-5f6f-41ec-9b24-56c50f70488d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platform">
+      <UniqueIdentifier>{77c7251c-81f1-4c15-9d0b-10371f8eda09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Others">
+      <UniqueIdentifier>{a0f09fc5-048c-439c-bbdc-cd5ece6d4159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Others">
+      <UniqueIdentifier>{dbc0cb17-287d-47dd-a306-b73d27866278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{f9323fb2-54d6-44b7-9a16-2c732a87ad24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{dbb55989-2868-4f0d-94ed-52038612307e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderthread">
+      <UniqueIdentifier>{e05deeb8-25cb-49c3-8b87-42732392f953}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input\InputPC">
+      <UniqueIdentifier>{c9fec559-6749-4d3e-a68a-a1f35695adc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Platform\PlatformPC">
+      <UniqueIdentifier>{a00f16f0-3855-476d-8fbc-5880af7e5606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderer\RendererPC">
+      <UniqueIdentifier>{3bd221eb-6b24-4510-8f5e-20cc39f0f04a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input\InputPC">
+      <UniqueIdentifier>{e1ab6598-182c-40c4-b21c-90f24bcabf91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Platform\PlatformPC">
+      <UniqueIdentifier>{313fb4b1-c832-4482-8475-3bafd3e77e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer\RendererPC">
+      <UniqueIdentifier>{52cab0c5-865b-4ffb-9aa2-b307b8c7f40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderThread">
+      <UniqueIdentifier>{ddc6b1f4-0df9-44ce-b198-bf5bd4339c73}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Others\Geometry.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Others\FileReader.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Others\Player.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Others\Map.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Others\Vector2D.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Others\Raycast.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Others\LatencyChecker.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Others\MapRenderer.cpp">
+      <Filter>Source Files\Others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\RenderThread\RenderThread.cpp">
+      <Filter>Source Files\RenderThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Input\InputPC\InputPC.cpp">
+      <Filter>Source Files\Input\InputPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Platform\PlatformPC\PlatformPC.cpp">
+      <Filter>Source Files\Platform\PlatformPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Renderer\RendererPC\RendererPC.cpp">
+      <Filter>Source Files\Renderer\RendererPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Platform\PlatformPC\Observer.cpp">
+      <Filter>Source Files\Platform\PlatformPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Platform\PlatformPC\IObserver.cpp">
+      <Filter>Source Files\Platform\PlatformPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Renderer\RendererPC\ImagePC.cpp">
+      <Filter>Source Files\Renderer\RendererPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Renderer\Image.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\Platform\Platform.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Renderer\Renderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\checkML.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Others\Geometry.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Others\FileReader.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Others\Player.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Others\Map.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Others\Vector2D.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Others\Input.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Others\Raycast.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Others\LatencyChecker.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Others\MapRenderer.h">
+      <Filter>Header Files\Others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\RenderThread\ConcurrentQueue.h">
+      <Filter>Header Files\Renderthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\RenderThread\RenderCommands.h">
+      <Filter>Header Files\Renderthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\RenderThread\RenderThread.h">
+      <Filter>Header Files\Renderthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Input\InputPC\InputPC.h">
+      <Filter>Header Files\Input\InputPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Platform\PlatformPC\PlatformPC.h">
+      <Filter>Header Files\Platform\PlatformPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Renderer\RendererPC\RendererPC.h">
+      <Filter>Header Files\Renderer\RendererPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Platform\PlatformPC\IObserver.h">
+      <Filter>Header Files\Platform\PlatformPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Platform\PlatformPC\Observer.h">
+      <Filter>Header Files\Platform\PlatformPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Renderer\Image.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Renderer\RendererPC\ImagePC.h">
+      <Filter>Header Files\Renderer\RendererPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Input\InputState.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Platform\Endianess.h">
+      <Filter>Header Files\Platform</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
